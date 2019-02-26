@@ -5,6 +5,11 @@
 
 this is a small api to provide endpoints to arbel application
 
+# REQUIREMENTS
+
+- MySQL 5.7
+- phpMyAdmin / SequelPro / MySQL Workbench or any other client you may know or use.
+
 # INSTALLATION
 
 You have to download this source code and place it within your web root directory, same as the arbel project.
@@ -12,6 +17,13 @@ You have to download this source code and place it within your web root director
 ~~~
 git clone git@github.com:dianam2r/arbel_api.git
 ~~~
+
+Open your prefered client for MySQL, and create a database and user with accees with the following criteria
+- database name: arbel
+- user: arbel_demo
+- password: arbel_demo
+
+Inside the directory setup/schema you'll find the .sql script to create the database. You will need to import the basic schema into the new database.
 
 # ENDPOINTS for ARBEL API
 
